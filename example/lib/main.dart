@@ -35,11 +35,11 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SlideDeck(
-      presenterView: true,
+      presenterView: false,
       slides: [
         PersonSlide(
-          title: 'Flutter Developer',
-          name: 'Filippa Flutterista',
+          title: 'CTO Mobile Experience DCX\n\nCapgemini',
+          name: 'Victor Carreras',
           image: const AssetImage('assets/portrait.jpg'),
           transition: defaultTransition,
         ),
